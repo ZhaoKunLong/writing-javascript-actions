@@ -17,3 +17,5 @@ jobs:
 
       - name: hello-actions
         uses: ./.github/actions/hello-world
+        with:
+          third-greeting: "Third params"
